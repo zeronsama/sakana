@@ -465,7 +465,7 @@ const triggerMagic = _ => {
 
 // setOrientationListener();
 
-const switchValue = _ => {
+/*const switchValue = _ => {
     el.classList.toggle('chisato');
 
     if (el.classList.contains('chisato')) {
@@ -485,14 +485,14 @@ document.querySelector('.bed').addEventListener('click', e => {
     e.preventDefault();
 
     switchValue();
-})
+})*/
 
 
 window.addEventListener('resize', resize);
 
 
 console.log(
-    '原版网页信息',
+    '原版网页信息如下：',
 );
 
 console.log(
