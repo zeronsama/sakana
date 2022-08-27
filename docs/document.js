@@ -429,7 +429,7 @@ const magicForce = _ => {
 
     // 0.1 probability to Switch Character
     if (Math.random() < 0.1) {
-        switchValue();
+        /*switchValue()*/;
     } else {
         // Add random velocities in the vertical and horizontal directions
         v.t = v.t + (Math.random() - 0.5) * 150;
